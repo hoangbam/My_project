@@ -1,0 +1,38 @@
+.nav-links button{
+    border: 1px solid white;
+    color:white;
+    background: transparent;
+}
+.nav-links button:hover
+.nav-links button:active{
+    background: #f8df00;
+    color: #292929;
+}
+.nav-links li :hover{
+    background-color: yellow;
+    border: 3px solid blue;
+}
+
+.nav-links:active{
+    background: #f8df00;
+    color: #292929;
+}
+
+.nav-links{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-links li {
+    margin: 1rem;
+
+}
+.nav-links a {
+    text-decoration: none;
+
+}

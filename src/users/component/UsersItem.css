@@ -1,0 +1,25 @@
+.user-item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin:0 .5rem;
+}
+.user-item a:hover{
+    transition: all .5s;
+    color: yellow;
+}
+.user-item a {
+    text-decoration:none
+
+}
+.user-item__content{
+    background-color: black;
+}
+.user-item__info h3{
+    margin:0;
+    
+}
+.user-item__info h2{
+    margin:0;
+}
